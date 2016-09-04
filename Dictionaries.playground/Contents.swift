@@ -16,6 +16,9 @@ if let airport = airports["JFK"] {
     print("The abbreviation for \(airport) is JFK")
 }
 
+
+// for .. in loop
+
 for (key, value) in airports {
     print("The abbreviation for \(value) is \(key)")
 }
@@ -68,5 +71,5 @@ let movies = [
 ]
 
 for (franchise, titles) in movies {
-    print("There are \(titles.count) movies in the \(franchise) series")
+    print("There are \(titles.count) movies in the \(franchise) series.")
 }
